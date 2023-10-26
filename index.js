@@ -27,6 +27,7 @@ function freelancersArray(){
                               <h4> ${currentFreelance.price}</h4>
                               <h2> Occupation<h2>
                               <h4> ${currentFreelance.occupation}</h4>`
-    
+    freeArray.appendChild(freelancersDiv)
   }
 }
+freelancersArray()
